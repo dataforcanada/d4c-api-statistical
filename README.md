@@ -13,7 +13,7 @@ The client is designed to interface with modern data distribution protocols:
 
 - **[STAC](https://stac-geoparquet.org/):** For metadata discovery. 
 - **[GeoZarr](https://github.com/zarr-developers/geozarr-spec):** For high-performance multidimensional data access.
-- **HTTP & P2P:** For decentralized data distribution and efficient retrieval.
+- **HTTP & [P2P](https://tixati.com/specs/bittorrent):** For decentralized data distribution and efficient retrieval.
 
 ## Multi-Language Support
 
