@@ -9,11 +9,12 @@ The goal of this project is to provide a consistent way to query metadata and ra
 
 ## Core Technologies
 
-The client is designed to interface with modern data distribution protocols:
+This service layer is built to interface with modern cloud-native formats while maintaining broad compatibility:
 
-- **[STAC](https://stac-geoparquet.org/):** For metadata discovery. 
-- **[GeoZarr](https://github.com/zarr-developers/geozarr-spec):** For high-performance multidimensional data access.
-- **HTTP & [P2P](https://tixati.com/specs/bittorrent):** For decentralized data distribution and efficient retrieval.
+* **[FAIR Data Catalogue](https://stac-geoparquet.org/):** For cataloging and discovering underlying datasets.
+* **[GeoParquet](https://geoparquet.org/):** An efficient, columnar storage format for vector data, providing the high-performance backend for our services.
+* **[GeoZarr](https://github.com/zarr-developers/geozarr-spec):** For multidimensional data processing and visualization.
+* **HTTP & [P2P](https://tixati.com/specs/bittorrent):** For efficient, decentralized data retrieval and backend distribution.
 
 ## Multi-Language Support
 
